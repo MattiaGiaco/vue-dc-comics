@@ -98,7 +98,7 @@ export default {
       }
     }
   }
-  img{
+  header img{
     width: 70px;
   }
 </style>

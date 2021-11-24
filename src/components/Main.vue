@@ -14,6 +14,5 @@ export default {
   main{
     background-color: #1c1c1c;
     height: 100px;
-    color: white;
   }
 </style>
