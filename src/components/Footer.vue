@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 @import "../assets/scss/var.scss";
 
@@ -108,7 +108,8 @@ export default {
   }
   
   .logo-bg img{
-  
+    width: 100%;
+    margin: -50px;
   }
 
   .footer-bottom{
@@ -128,6 +129,10 @@ export default {
       text-transform: uppercase;
       font-weight: bold;
       cursor: pointer;
+      &:hover{
+        background-color: $primaryColor;
+        transition: all 0.5s;
+      }
     }
   }
   .footer-bottom .social{
